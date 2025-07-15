@@ -20,6 +20,7 @@ class _ChatMessageState extends ConsumerState<ChatMessage>
 
   @override
   void initState() {
+    // TODO: Implement initState
     super.initState();
     _animationController = AnimationController(
       duration: const Duration(milliseconds: 300),
