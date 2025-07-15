@@ -157,12 +157,8 @@ class _AuthScreenState extends ConsumerState<AuthScreen> {
                           ElevatedButton(
                             onPressed: () => _submit(ref, context),
                             style: ElevatedButton.styleFrom(
-                              backgroundColor: Theme.of(
-                                context,
-                              ).colorScheme.primary,
-                              foregroundColor: Theme.of(
-                                context,
-                              ).colorScheme.onPrimary,
+                              backgroundColor: Colors.yellow,
+                              foregroundColor: Colors.black,
                             ),
                             child: Text(_isLogin ? 'Login' : 'Signup'),
                           ),
