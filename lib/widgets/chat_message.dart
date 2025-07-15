@@ -67,7 +67,7 @@ class _ChatMessageState extends ConsumerState<ChatMessage>
                   },
                   background: Container(
                     color: const Color.fromARGB(255, 184, 196, 161), // For startToEnd (left to right)
-                    alignment: Alignment.centerLeft,
+                    alignment: Alignment.bottomCenter,
                     padding: EdgeInsets.symmetric(horizontal: 20),
                     child: Icon(Icons.forward_to_inbox_outlined, color: Colors.white),
                   ),
